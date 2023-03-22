@@ -14,11 +14,11 @@ https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.p
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://raw.githubusercontent.com/rdavydov/Twitch-Channel-Points-Miner-v2/master/assets/banner.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1679514867</DateInstalled>
+  <DateInstalled>1679515692</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>First of all please create a run.py file. You can just copy example.py and modify it according to your needs.&#xD;
