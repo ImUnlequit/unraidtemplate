@@ -9,8 +9,9 @@
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/rdavidoff/twitch-channel-points-miner-v2/</Support>
   <Project>https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2</Project>
-  <Overview>First of all please create a run.py file. You can just copy example.py and modify it according to your needs.&#xD;
-https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.py</Overview>
+  <Overview>First of all please create a run.py file. You can just copy example.py and modify it according to your needs.
+    Make sure that int the run.py directory isn't another directory with run.py. Paste your run.py in /mnt/user/appdata/twitchminer/run.py/ .&#xD;
+    https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.py</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
@@ -21,8 +22,9 @@ https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.p
   <DateInstalled>1679515692</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>First of all please create a run.py file. You can just copy example.py and modify it according to your needs.&#xD;
-https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.py</Description>
+  <Description>First of all please create a run.py file. You can just copy example.py and modify it according to your needs.
+    Make sure that int the run.py directory isn't another directory with run.py. Paste your run.py in /mnt/user/appdata/twitchminer/run.py/ .&#xD;
+    https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.py<Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
