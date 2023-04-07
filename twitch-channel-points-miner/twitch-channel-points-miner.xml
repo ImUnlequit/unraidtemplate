@@ -24,7 +24,7 @@
   <DonateLink/>
   <Description>First of all please create a run.py file. You can just copy example.py and modify it according to your needs.
     Make sure that int the run.py directory isn't another directory with run.py. Paste your run.py in /mnt/user/appdata/twitchminer/run.py/ .&#xD;
-    https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.py<Description>
+    https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.py</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
