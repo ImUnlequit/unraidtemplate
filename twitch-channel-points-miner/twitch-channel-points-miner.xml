@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Twitch-Channel-Points-Miner</Name>
+  <Name>Twitch-Channel-Points-Miner-Leander</Name>
   <Repository>rdavidoff/twitch-channel-points-miner-v2</Repository>
   <Registry>https://hub.docker.com/r/rdavidoff/twitch-channel-points-miner-v2/</Registry>
   <Network>bridge</Network>
@@ -9,27 +9,25 @@
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/rdavidoff/twitch-channel-points-miner-v2/</Support>
   <Project>https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2</Project>
-  <Overview>First of all please create a run.py file. You can just copy example.py and modify it according to your needs.
-    Make sure that int the run.py directory isn't another directory with run.py. Paste your run.py in /mnt/user/appdata/twitchminer/run.py/ .&#xD;
-    https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.py</Overview>
-  <Category>Tools:</Category>
+  <Overview>First of all please create a run.py file. You can just copy example.py and rename it to run.py and modify it according to your needs.&#xD;
+https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.py</Overview>
+  <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/ImUnlequit/unraidtemplate/master/twitch-channel-points-miner/twitch-channel-points-miner.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/rdavydov/Twitch-Channel-Points-Miner-v2/master/assets/banner.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1679515692</DateInstalled>
+  <DateInstalled>1683811799</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>First of all please create a run.py file. You can just copy example.py and modify it according to your needs.
-    Make sure that int the run.py directory isn't another directory with run.py. Paste your run.py in /mnt/user/appdata/twitchminer/run.py/ .&#xD;
-    https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.py<Description>
+  <Description>First of all please create a run.py file. You can just copy example.py and rename it to run.py and modify it according to your needs.&#xD;
+https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2/blob/master/example.py</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>5000</HostPort>
+        <HostPort>5005</HostPort>
         <ContainerPort>5000</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -63,5 +61,5 @@
   <Config Name="cookies" Target="/usr/src/app/cookies/" Default="" Mode="rw" Description="Container Path: /cookies" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/twitchminer/cookies/</Config>
   <Config Name="logs" Target="/usr/src/app/logs/" Default="" Mode="rw" Description="Container Path: /logs" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/twitchminer/logs/</Config>
   <Config Name="run.py" Target="/usr/src/app/run.py" Default="" Mode="rw" Description="Container Path: /usr/src/app/run.py:ro" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/twitchminer/run.py/run.py</Config>
-  <Config Name="Host Port 1" Target="5000" Default="" Mode="tcp" Description="Container Port: 5000" Type="Port" Display="always" Required="false" Mask="false">5000</Config>
+  <Config Name="Host Port 1" Target="5000" Default="" Mode="tcp" Description="Container Port: 5000" Type="Port" Display="always" Required="false" Mask="false">5005</Config>
 </Container>
